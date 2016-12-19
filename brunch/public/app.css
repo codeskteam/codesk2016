@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Sans:400,700");
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  background: #a5d3ea;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a5d3ea 0%, #cae1f1 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #a5d3ea 0%, #cae1f1 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #a5d3ea 0%, #cae1f1 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5d3ea', endColorstr='#cae1f1',GradientType=0 );
+  /* IE6-9 */ }
+
+/* ====================== */
+/* FONTS */
+/* ====================== */
+h1 {
+  font-family: "Montserrat", sans-serif; }
+
+/* ====================== */
+/* COLORS */
+/* ====================== */
+.blue * {
+  color: #2c3457; }
+
+/* ====================== */
+/* HEADER */
+/* ====================== */
+header {
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2%; }
+  header .logo {
+    width: 8%;
+    float: left; }
+  header .mainnav {
+    float: right; }
+    header .mainnav nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      header .mainnav nav ul li {
+        display: inline-block;
+        margin-left: 15px; }
+        header .mainnav nav ul li a {
+          font-family: "Montserrat", sans-serif;
+          font-weight: normal;
+          font-size: 1em;
+          text-decoration: none; }
+          header .mainnav nav ul li a:hover {
+            text-decoration: underline; }
+
+/* ====================== */
+/* MAIN */
+/* ====================== */
+main .homecontent .bigc {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 32em;
+  line-height: 1em;
+  text-align: center;
+  position: absolute;
+  bottom: 260px;
+  width: 100%;
+  background: -webkit-linear-gradient(#2c3457, #424b82);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+main .homecontent .contentwrapper {
+  position: absolute;
+  width: 100%;
+  padding-top: 160px;
+  padding-bottom: 6%;
+  bottom: 0;
+  background-image: url(img/clouds-blue.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  main .homecontent .contentwrapper .content {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto; }
+    main .homecontent .contentwrapper .content h1 {
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 2px; }
+    main .homecontent .contentwrapper .content p {
+      margin: 0;
+      font-size: 1.4em;
+      letter-spacing: 1px; }
+    main .homecontent .contentwrapper .content .hleft {
+      text-align: right;
+      width: 50%;
+      float: left;
+      padding-right: 1.2%;
+      box-sizing: border-box; }
+    main .homecontent .contentwrapper .content .hright {
+      text-align: left;
+      width: 50%;
+      float: left;
+      padding-left: 1.2%;
+      box-sizing: border-box; }
+    main .homecontent .contentwrapper .content .hbuttons a {
+      background: #fff;
+      text-decoration: none;
+      border: 1px solid;
+      border-radius: 50px;
+      padding: 11px 21px;
+      display: inline-block; }
+      main .homecontent .contentwrapper .content .hbuttons a:hover {
+        background-color: #2c3457; }
+        main .homecontent .contentwrapper .content .hbuttons a:hover span {
+          color: #fff; }
+
+
+/*# sourceMappingURL=app.css.map*/
