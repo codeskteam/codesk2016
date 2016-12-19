@@ -47,6 +47,8 @@ header {
 	width: 90%;
 	margin: 0 auto;
 	padding-top: 2%;
+	position: relative;
+	z-index: 99;
 
 	.logo {
 		width: 8%;
